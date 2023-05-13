@@ -46,10 +46,11 @@
   border-color: white;
   border-style: solid;
   grid-area: button;
+  border: 1px solid #ffffff;
 }
 
 .profile__edit-button:hover {
-  opacity: 50%;
+  opacity: 60%;
 }
 
 .profile__add-button {
@@ -59,6 +60,7 @@
   border: 2px;
   border-color: white;
   border-style: solid;
+  border-radius: 2px;
   margin-left: auto;
 }
 
