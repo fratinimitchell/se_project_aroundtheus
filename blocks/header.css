@@ -7,3 +7,10 @@
   border-bottom: solid;
   border-bottom-color: #545454;
 }
+
+@media screen and (max-width: 726px) {
+  .header {
+    padding-top: 28px;
+    padding-bottom: 32px;
+  }
+}

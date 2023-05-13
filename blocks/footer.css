@@ -4,3 +4,9 @@
   color: #545454;
   padding-top: 67px;
 }
+
+@media screen and (max-width: 726px) {
+  .footer__copyright {
+    padding-top: 48px;
+  }
+}
