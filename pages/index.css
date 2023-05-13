@@ -5,23 +5,35 @@
 @import url(../blocks/header.css);
 @import url(../blocks/page.css);
 @import url(../blocks/profile.css);
+@import url(../blocks/cards.css);
 
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 726px) {
+  .header {
+    padding-top: 28px;
+    padding-bottom: 32px;
+  }
+
   .profile {
     display: flex;
     flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .profile__image {
-    margin: 0;
+    margin: 38px 0 26px;
   }
 
   .profile__title {
     font-size: 22px;
+    line-height: 27px;
   }
 
   .profile__description {
     font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
 
   .profile__info {
@@ -33,13 +45,8 @@
     gap: 14px 10px;
   }
 
-  .profile__description {
-    width: 100%;
-    text-align: center;
-  }
-
   .profile__add-button {
-    margin: 0;
+    margin: 36px 0;
     width: 282px;
   }
 
