@@ -8,9 +8,24 @@
   border-bottom: 1px solid #545454;
 }
 
-@media screen and (max-width: 726px) {
+.header__logo {
+  height: 33px;
+  width: 173px;
+}
+
+@media screen and (max-width: 580px) {
   .header {
     padding-top: 28px;
     padding-bottom: 32px;
+  }
+  .header__logo {
+    height: 24px;
+    width: 126px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header__logo {
+    padding-left: 27px;
   }
 }
