@@ -6,11 +6,12 @@
   padding-bottom: 60px;
   margin: 0;
   line-height: 22px;
+  grid-area: footer;
 }
 
 @media screen and (max-width: 580px) {
   .footer__copyright {
-    padding-top: 48px;
+    padding-top: calc(48px - 20px);
     padding-bottom: 36px;
   }
 }

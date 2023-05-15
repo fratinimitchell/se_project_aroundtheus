@@ -75,6 +75,12 @@
   opacity: 60%;
 }
 
+@media screen and (max-width: 880px) {
+  .profile__image {
+    margin-left: 27px;
+  }
+}
+
 @media screen and (max-width: 580px) {
   .profile {
     display: flex;
@@ -112,10 +118,9 @@
     margin: 36px 0;
     width: 282px;
   }
-}
 
-@media screen and (max-width: 880px) {
-  .profile__image {
-    margin-left: 27px;
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
   }
 }

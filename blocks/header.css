@@ -1,11 +1,10 @@
 .header {
-  border-bottom-width: 1px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 40px;
   padding-top: 40px;
   opacity: 70%;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
 .header__logo {

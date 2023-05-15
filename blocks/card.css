@@ -13,6 +13,7 @@
 .card__title {
   margin: 0;
   size: 24px;
+  width: 219px;
   line-height: 29px;
   font-weight: 900;
   white-space: nowrap;
