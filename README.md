@@ -27,3 +27,8 @@ My GitHub page with the rest of my projects! Enjoy the view!
 https://github.com/fratinimitchell/se_project_aroundtheus.git
 
 The repository for this project!
+
+**Website**
+https://fratinimitchell.github.io/se_project_aroundtheus/
+
+First deployed website; Take a gander!
